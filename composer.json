@@ -1,0 +1,12 @@
+{
+  "name": "outlandish/standout-staging",
+  "description": "This repository contains the WordPress plugin that makes staging and development versions of a website easily visible by a different color in the admin bar",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Outlandish.com",
+      "email": "koyan@outlandish.com"
+    }
+  ]
+}
