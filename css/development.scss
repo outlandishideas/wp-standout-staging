@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$highlight-color: #5599cc;
+
+@use "wp-admin/css/colors/_admin.scss" with (
+  $scheme-name: "standout",
+  $base-color: blue,
+  $highlight-color: $highlight-color,
+  $notification-color: #ccaf0b,
+  $menu-submenu-focus-text: color.adjust($highlight-color, $lightness: 35%)
+);
