@@ -17,7 +17,7 @@ function enqueueStandoutCss()
     $isStaging = str_contains($_SERVER['WP_HOME'], 'staging');
     if ($isLocal || $isStaging) {
         $publicRoot = plugin_dir_url(__FILE__) . '/css/';
-        wp_enqueue_style('standout-css-vars', $publicRoot . ($isLocal ? 'development' : 'staging') . '.css');
+        wp_enqueue_style('standout-css', $publicRoot . ($isLocal ? 'development' : 'staging') . '.css');
     }
 }
 
