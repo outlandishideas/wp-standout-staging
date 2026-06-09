@@ -7,5 +7,6 @@ $highlight-color: #e16a6a;
   $base-color: red,
   $highlight-color: $highlight-color,
   $notification-color: #ccaf0b,
-  $menu-submenu-focus-text: color.adjust($highlight-color, $lightness: 35%)
+  $menu-submenu-focus-text: color.adjust($highlight-color, $lightness: 35%),
+  $link-focus: rgba(var(--bs-link-color-rgb, #0073aa),var(--bs-link-opacity,1))
 );
