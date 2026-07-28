@@ -8,5 +8,11 @@ $highlight-color: #e16a6a;
   $highlight-color: $highlight-color,
   $notification-color: #ccaf0b,
   $menu-submenu-focus-text: color.adjust($highlight-color, $lightness: 35%),
-  $link-focus: rgba(var(--bs-link-color-rgb, #0073aa),var(--bs-link-opacity,0.5))
+  $link: red,
+  $link-focus: var(--bs-btn-color, rgba(var(--bs-link-color-rgb, #0073aa),var(--bs-link-opacity,1)))
 );
+
+body.wp-admin {
+  --bs-link-color-rgb: 255,0,0;
+  --bs-link-opacity: 0.6;
+}
